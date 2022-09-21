@@ -58,12 +58,12 @@ function renderCart() {
                     <strong class="cartItem__name">${name}</strong>
                     <span class="cartItem__quantity">
                         <div>
-                            <button class="btn-quantity">
-                                <i class="fas fa-chevron-left" data-id=${id} data-type="decrement"></i>
+                            <button class="btn-quantity" data-id=${id} data-type="decrement">
+                                <i class="fas fa-chevron-left" ></i>
                             </button>
                             <p class="cartItem__number">${cartItem.quantity}</p>
-                            <button class="btn-quantity">
-                                <i class="fas fa-chevron-right" data-id=${id} data-type="increment"></i>
+                            <button class="btn-quantity" data-id=${id} data-type="increment">
+                                <i class="fas fa-chevron-right" ></i>
                             </button>
                         </div>
                     </span>
